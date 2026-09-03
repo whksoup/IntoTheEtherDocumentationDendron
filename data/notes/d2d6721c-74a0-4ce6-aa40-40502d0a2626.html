@@ -1,0 +1,34 @@
+<h1 id="a-budget-for-images-and-video">A budget for images and video<a aria-hidden="true" class="anchor-heading icon-link" href="#a-budget-for-images-and-video"></a></h1>
+<p>Git stores every version of every binary you commit forever. A repository
+that accumulates screenshots recompressed a few times gets slow to clone and
+never gets smaller, because deleting the file leaves the history intact.</p>
+<h2 id="images">Images<a aria-hidden="true" class="anchor-heading icon-link" href="#images"></a></h2>
+<p>Live in <code>vault/assets/images/</code>, referenced with normal markdown image syntax.
+Convert to WebP, cap the long edge at 1600 px, keep files under about 300 KB,
+and always write real alt text.</p>
+<pre class="language-md"><code class="language-md"><span class="token url"><span class="token operator">!</span>[<span class="token content">Replace this with a real description.</span>](<span class="token url">assets/images/placeholder.webp</span>)</span>
+</code></pre>
+<h2 id="video">Video<a aria-hidden="true" class="anchor-heading icon-link" href="#video"></a></h2>
+<p>Host it somewhere built for it and embed the player with raw HTML, which
+Dendron's publish pipeline passes through:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>video-embed<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>iframe</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://www.youtube-nocookie.com/embed/VIDEO_ID<span class="token punctuation">"</span></span>
+          <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>What it shows<span class="token punctuation">"</span></span> <span class="token attr-name">loading</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>lazy<span class="token punctuation">"</span></span> <span class="token attr-name">allowfullscreen</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>iframe</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>div</span><span class="token punctuation">></span></span>
+</code></pre>
+<p>A three-minute clip at decent quality can eat several percent of the site's
+entire 1 GB allowance — see <a href="/IntoTheEtherDocumentationDendron/notes/e71a229c-c834-42d9-9cdf-dbc1cce0b10a">GitHub Pages limits</a>.
+Self-hosting is reasonable only for a silent loop under about 5 MB.</p>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">meta (Private)</a></li>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">media (Private)</a></li>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">performance (Private)</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/IntoTheEtherDocumentationDendron/notes/e71a229c-c834-42d9-9cdf-dbc1cce0b10a">GitHub Pages limits</a></li>
+<li><a href="/IntoTheEtherDocumentationDendron/notes/b43523ba-f71e-4459-bde8-67c52f7ca1dc">How this notebook works</a></li>
+</ul>

@@ -1,0 +1,2719 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "vault"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1788455131148,
+      "created": 1788455131148,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "8d629673-d21d-4f83-9423-4e62c68da9ab": {
+      "id": "8d629673-d21d-4f83-9423-4e62c68da9ab",
+      "title": "Topics",
+      "desc": "Hand-curated maps that arrange notes and sources into an argument.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta"
+      ],
+      "custom": {
+        "nav_order": 2
+      },
+      "fname": "topics",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c890e4d6135d7d5fb747a11d11df61d4",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "topics",
+            "id": "8d629673-d21d-4f83-9423-4e62c68da9ab",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "from": {
+            "fname": "root",
+            "id": "03cdc22b-eff8-4e94-bd04-96724d382caa",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 3,
+              "offset": 146
+            },
+            "end": {
+              "line": 7,
+              "column": 20,
+              "offset": 163
+            },
+            "indent": []
+          },
+          "value": "topics"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "b43523ba-f71e-4459-bde8-67c52f7ca1dc"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "b43523ba-f71e-4459-bde8-67c52f7ca1dc": {
+      "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+      "title": "How this notebook works",
+      "desc": "The conventions behind the three note types, and why they're worth keeping.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta",
+        "writing-system"
+      ],
+      "custom": {},
+      "fname": "topics.how-this-notebook-works",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "710bc7b54463fd04f4c02d2986f74a66",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "topics.how-this-notebook-works",
+            "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "topics.how-this-notebook-works",
+            "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+            "vaultName": "vault"
+          },
+          "value": "tags.writing-system",
+          "alias": "writing-system",
+          "xvault": false,
+          "to": {
+            "fname": "tags.writing-system"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "topics.how-this-notebook-works",
+            "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+            "vaultName": "vault"
+          },
+          "value": "notes.three-kinds-of-page",
+          "alias": "Three kinds of page, and one rule for choosing",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 3,
+              "offset": 307
+            },
+            "end": {
+              "line": 9,
+              "column": 79,
+              "offset": 383
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "notes.three-kinds-of-page"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "topics.how-this-notebook-works",
+            "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+            "vaultName": "vault"
+          },
+          "value": "notes.naming-and-linking",
+          "alias": "Naming and linking",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 3,
+              "offset": 386
+            },
+            "end": {
+              "line": 10,
+              "column": 50,
+              "offset": 433
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "notes.naming-and-linking"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "topics.how-this-notebook-works",
+            "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+            "vaultName": "vault"
+          },
+          "value": "notes.media-budget",
+          "alias": "A budget for images and video",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 3,
+              "offset": 436
+            },
+            "end": {
+              "line": 11,
+              "column": 55,
+              "offset": 488
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "notes.media-budget"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "topics.how-this-notebook-works",
+            "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+            "vaultName": "vault"
+          },
+          "value": "sources.github-pages-limits",
+          "alias": "GitHub Pages limits",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 3,
+              "offset": 491
+            },
+            "end": {
+              "line": 12,
+              "column": 54,
+              "offset": 542
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "sources.github-pages-limits"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "8d629673-d21d-4f83-9423-4e62c68da9ab",
+      "data": {}
+    },
+    "cc4b8580-43e7-43b7-83b9-22c062bd511d": {
+      "id": "cc4b8580-43e7-43b7-83b9-22c062bd511d",
+      "title": "Sources",
+      "desc": "Links, papers, talks and videos, each with the reason it's worth your time.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta"
+      ],
+      "custom": {
+        "nav_order": 1
+      },
+      "fname": "sources",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "325910bc486dbbdc4bb49d48c70f968c",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources",
+            "id": "cc4b8580-43e7-43b7-83b9-22c062bd511d",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "from": {
+            "fname": "root",
+            "id": "03cdc22b-eff8-4e94-bd04-96724d382caa",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 3,
+              "offset": 124
+            },
+            "end": {
+              "line": 6,
+              "column": 22,
+              "offset": 143
+            },
+            "indent": []
+          },
+          "value": "sources"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "e71a229c-c834-42d9-9cdf-dbc1cce0b10a",
+        "9fb155f7-93b1-42c9-9ca5-965ead6264cc"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "9fb155f7-93b1-42c9-9ca5-965ead6264cc": {
+      "id": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+      "title": "Photography references",
+      "desc": "Bodies of photographic work we're mining for the open silicon exhibition.",
+      "updated": 1788393600000,
+      "created": 1788393600000,
+      "tags": [
+        "meta",
+        "photography"
+      ],
+      "custom": {},
+      "fname": "sources.photos",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "16eb13be964c5e713a6d1620b02b4990",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos",
+            "id": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos",
+            "id": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "sources.photos",
+            "id": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+            "vaultName": "vault"
+          },
+          "value": "notes.photos",
+          "alias": "Photographing the exhibition",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 20,
+              "offset": 20
+            },
+            "end": {
+              "line": 2,
+              "column": 65,
+              "offset": 65
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "notes.photos"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "ac09f4a5-496c-49be-9396-2d602537468c",
+        "de93244d-d998-494f-b5d1-189b28dbc899",
+        "605332d0-02ad-4b4c-a636-10a9e9bfd8f0",
+        "ea3813a0-0a80-4f6f-ae21-d388eb38832a",
+        "4854a8a2-d71a-466f-993d-3b34cc46cfc6",
+        "52124973-fc66-4c72-98ad-7456e239bdc3",
+        "4f3e636c-2910-46b3-828f-99c084cc5611",
+        "bc4c10db-a44d-4e17-8e15-30e564fe7c57",
+        "480ab885-61c1-4787-8654-d23b96356ba7"
+      ],
+      "parent": "cc4b8580-43e7-43b7-83b9-22c062bd511d",
+      "data": {}
+    },
+    "480ab885-61c1-4787-8654-d23b96356ba7": {
+      "id": "480ab885-61c1-4787-8654-d23b96356ba7",
+      "title": "Zeptobars — decapsulated die-shot archive",
+      "desc": "A long-running blog that acid-decaps commodity and historical chips and publishes high-resolution die photographs as an open archive.",
+      "updated": 1788419688518,
+      "created": 1788419688518,
+      "tags": [
+        "meta",
+        "photography",
+        "die-imaging",
+        "archive"
+      ],
+      "vendor_approved": false,
+      "vendor": "",
+      "approved_on": "",
+      "custom": {
+        "vendor_approved": false,
+        "vendor": "",
+        "approved_on": ""
+      },
+      "fname": "sources.photos.zeptobars-decapping",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "0aaefb1936a1617ef109fce483057b30",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.zeptobars-decapping",
+            "id": "480ab885-61c1-4787-8654-d23b96356ba7",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.zeptobars-decapping",
+            "id": "480ab885-61c1-4787-8654-d23b96356ba7",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.zeptobars-decapping",
+            "id": "480ab885-61c1-4787-8654-d23b96356ba7",
+            "vaultName": "vault"
+          },
+          "value": "tags.die-imaging",
+          "alias": "die-imaging",
+          "xvault": false,
+          "to": {
+            "fname": "tags.die-imaging"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.zeptobars-decapping",
+            "id": "480ab885-61c1-4787-8654-d23b96356ba7",
+            "vaultName": "vault"
+          },
+          "value": "tags.archive",
+          "alias": "archive",
+          "xvault": false,
+          "to": {
+            "fname": "tags.archive"
+          }
+        }
+      ],
+      "anchors": {
+        "the-problem": {
+          "type": "header",
+          "text": "The problem",
+          "value": "the-problem",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "what-they-did": {
+          "type": "header",
+          "text": "What they did",
+          "value": "what-they-did",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "what-we-take": {
+          "type": "header",
+          "text": "What we take",
+          "value": "what-we-take",
+          "line": 41,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+      "data": {}
+    },
+    "bc4c10db-a44d-4e17-8e15-30e564fe7c57": {
+      "id": "bc4c10db-a44d-4e17-8e15-30e564fe7c57",
+      "title": "IRIS — infrared, in-situ chip inspection",
+      "desc": "Andrew 'bunnie' Huang's method for imaging a chip's internal construction through its package, without desoldering or destroying it.",
+      "updated": 1788419688518,
+      "created": 1788419688518,
+      "tags": [
+        "meta",
+        "photography",
+        "die-imaging",
+        "open-hardware"
+      ],
+      "vendor_approved": false,
+      "vendor": "",
+      "approved_on": "",
+      "custom": {
+        "vendor_approved": false,
+        "vendor": "",
+        "approved_on": ""
+      },
+      "fname": "sources.photos.iris-infrared-inspection",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "ed8406dcf3bf7c6c85a3be438abbe7e8",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.iris-infrared-inspection",
+            "id": "bc4c10db-a44d-4e17-8e15-30e564fe7c57",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.iris-infrared-inspection",
+            "id": "bc4c10db-a44d-4e17-8e15-30e564fe7c57",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.iris-infrared-inspection",
+            "id": "bc4c10db-a44d-4e17-8e15-30e564fe7c57",
+            "vaultName": "vault"
+          },
+          "value": "tags.die-imaging",
+          "alias": "die-imaging",
+          "xvault": false,
+          "to": {
+            "fname": "tags.die-imaging"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.iris-infrared-inspection",
+            "id": "bc4c10db-a44d-4e17-8e15-30e564fe7c57",
+            "vaultName": "vault"
+          },
+          "value": "tags.open-hardware",
+          "alias": "open-hardware",
+          "xvault": false,
+          "to": {
+            "fname": "tags.open-hardware"
+          }
+        }
+      ],
+      "anchors": {
+        "the-problem": {
+          "type": "header",
+          "text": "The problem",
+          "value": "the-problem",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "what-they-did": {
+          "type": "header",
+          "text": "What they did",
+          "value": "what-they-did",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        },
+        "what-we-take": {
+          "type": "header",
+          "text": "What we take",
+          "value": "what-we-take",
+          "line": 46,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+      "data": {}
+    },
+    "4f3e636c-2910-46b3-828f-99c084cc5611": {
+      "id": "4f3e636c-2910-46b3-828f-99c084cc5611",
+      "title": "Installation-view conventions, and artists who push back on them",
+      "desc": "An essay on how exhibition documentation photographers shape the art they record, and three artists who deliberately work against that convention.",
+      "updated": 1788419688518,
+      "created": 1788419688518,
+      "tags": [
+        "meta",
+        "photography",
+        "installation",
+        "writing-system"
+      ],
+      "vendor_approved": false,
+      "vendor": "",
+      "approved_on": "",
+      "custom": {
+        "vendor_approved": false,
+        "vendor": "",
+        "approved_on": ""
+      },
+      "fname": "sources.photos.installation-view-conventions",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "8c716447c27dd6787fb4741212c544e4",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.installation-view-conventions",
+            "id": "4f3e636c-2910-46b3-828f-99c084cc5611",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.installation-view-conventions",
+            "id": "4f3e636c-2910-46b3-828f-99c084cc5611",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.installation-view-conventions",
+            "id": "4f3e636c-2910-46b3-828f-99c084cc5611",
+            "vaultName": "vault"
+          },
+          "value": "tags.installation",
+          "alias": "installation",
+          "xvault": false,
+          "to": {
+            "fname": "tags.installation"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.installation-view-conventions",
+            "id": "4f3e636c-2910-46b3-828f-99c084cc5611",
+            "vaultName": "vault"
+          },
+          "value": "tags.writing-system",
+          "alias": "writing-system",
+          "xvault": false,
+          "to": {
+            "fname": "tags.writing-system"
+          }
+        }
+      ],
+      "anchors": {
+        "the-problem": {
+          "type": "header",
+          "text": "The problem",
+          "value": "the-problem",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "what-they-did": {
+          "type": "header",
+          "text": "What they did",
+          "value": "what-they-did",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "what-we-take": {
+          "type": "header",
+          "text": "What we take",
+          "value": "what-we-take",
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+      "data": {}
+    },
+    "52124973-fc66-4c72-98ad-7456e239bdc3": {
+      "id": "52124973-fc66-4c72-98ad-7456e239bdc3",
+      "title": "iFixit teardown photography",
+      "desc": "A fixed overhead rig and a numbered step grammar that turn photographs into instructions.",
+      "updated": 1788393600000,
+      "created": 1788393600000,
+      "tags": [
+        "meta",
+        "photography",
+        "teardown"
+      ],
+      "vendor_approved": false,
+      "vendor": "",
+      "approved_on": "",
+      "custom": {
+        "vendor_approved": false,
+        "vendor": "",
+        "approved_on": ""
+      },
+      "fname": "sources.photos.ifixit-teardowns",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "69556252474588b6d70c38c8ce0b6b84",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.ifixit-teardowns",
+            "id": "52124973-fc66-4c72-98ad-7456e239bdc3",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.ifixit-teardowns",
+            "id": "52124973-fc66-4c72-98ad-7456e239bdc3",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.ifixit-teardowns",
+            "id": "52124973-fc66-4c72-98ad-7456e239bdc3",
+            "vaultName": "vault"
+          },
+          "value": "tags.teardown",
+          "alias": "teardown",
+          "xvault": false,
+          "to": {
+            "fname": "tags.teardown"
+          }
+        },
+        {
+          "from": {
+            "fname": "notes.photos",
+            "id": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 59,
+              "column": 3,
+              "offset": 2950
+            },
+            "end": {
+              "line": 59,
+              "column": 66,
+              "offset": 3013
+            },
+            "indent": []
+          },
+          "value": "sources.photos.ifixit-teardowns"
+        }
+      ],
+      "anchors": {
+        "the-problem": {
+          "type": "header",
+          "text": "The problem",
+          "value": "the-problem",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "what-they-did": {
+          "type": "header",
+          "text": "What they did",
+          "value": "what-they-did",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "what-we-take": {
+          "type": "header",
+          "text": "What we take",
+          "value": "what-we-take",
+          "line": 46,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+      "data": {}
+    },
+    "4854a8a2-d71a-466f-993d-3b34cc46cfc6": {
+      "id": "4854a8a2-d71a-466f-993d-3b34cc46cfc6",
+      "title": "Herbarium specimen imaging — scale and colour calibration",
+      "desc": "The standardized scale-bar and colour-reference convention herbaria use so specimen photographs can be measured and compared across institutions.",
+      "updated": 1788443317297,
+      "created": 1788419688518,
+      "tags": [
+        "meta",
+        "photography",
+        "scientific-plate",
+        "scale"
+      ],
+      "vendor_approved": false,
+      "vendor": "",
+      "approved_on": "",
+      "custom": {
+        "vendor_approved": false,
+        "vendor": "",
+        "approved_on": ""
+      },
+      "fname": "sources.photos.herbarium-scale-bars",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b1ee107e01f66e0f596eeca3327d3770",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.herbarium-scale-bars",
+            "id": "4854a8a2-d71a-466f-993d-3b34cc46cfc6",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.herbarium-scale-bars",
+            "id": "4854a8a2-d71a-466f-993d-3b34cc46cfc6",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.herbarium-scale-bars",
+            "id": "4854a8a2-d71a-466f-993d-3b34cc46cfc6",
+            "vaultName": "vault"
+          },
+          "value": "tags.scientific-plate",
+          "alias": "scientific-plate",
+          "xvault": false,
+          "to": {
+            "fname": "tags.scientific-plate"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.herbarium-scale-bars",
+            "id": "4854a8a2-d71a-466f-993d-3b34cc46cfc6",
+            "vaultName": "vault"
+          },
+          "value": "tags.scale",
+          "alias": "scale",
+          "xvault": false,
+          "to": {
+            "fname": "tags.scale"
+          }
+        }
+      ],
+      "anchors": {
+        "the-problem": {
+          "type": "header",
+          "text": "The problem",
+          "value": "the-problem",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "what-they-did": {
+          "type": "header",
+          "text": "What they did",
+          "value": "what-they-did",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "what-we-take": {
+          "type": "header",
+          "text": "What we take",
+          "value": "what-we-take",
+          "line": 42,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+      "data": {}
+    },
+    "ea3813a0-0a80-4f6f-ae21-d388eb38832a": {
+      "id": "ea3813a0-0a80-4f6f-ae21-d388eb38832a",
+      "title": "Fritzchens Fritz — delidded die macro photography",
+      "desc": "A Flickr photographer who systematically delids consumer hardware and macro-photographs the die underneath, at a time when vendors publish fewer of these images themselves.",
+      "updated": 1788442461166,
+      "created": 1788419688518,
+      "tags": [
+        "meta",
+        "photography",
+        "die-imaging",
+        "teardown"
+      ],
+      "vendor_approved": false,
+      "vendor": "",
+      "approved_on": "",
+      "custom": {
+        "vendor_approved": false,
+        "vendor": "",
+        "approved_on": ""
+      },
+      "fname": "sources.photos.fritzchens-fritz-die-shots",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "f979b0121144f5a230725c8d60bec0cf",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.fritzchens-fritz-die-shots",
+            "id": "ea3813a0-0a80-4f6f-ae21-d388eb38832a",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.fritzchens-fritz-die-shots",
+            "id": "ea3813a0-0a80-4f6f-ae21-d388eb38832a",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.fritzchens-fritz-die-shots",
+            "id": "ea3813a0-0a80-4f6f-ae21-d388eb38832a",
+            "vaultName": "vault"
+          },
+          "value": "tags.die-imaging",
+          "alias": "die-imaging",
+          "xvault": false,
+          "to": {
+            "fname": "tags.die-imaging"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.fritzchens-fritz-die-shots",
+            "id": "ea3813a0-0a80-4f6f-ae21-d388eb38832a",
+            "vaultName": "vault"
+          },
+          "value": "tags.teardown",
+          "alias": "teardown",
+          "xvault": false,
+          "to": {
+            "fname": "tags.teardown"
+          }
+        }
+      ],
+      "anchors": {
+        "the-problem": {
+          "type": "header",
+          "text": "The problem",
+          "value": "the-problem",
+          "line": 19,
+          "column": 0,
+          "depth": 2
+        },
+        "what-they-did": {
+          "type": "header",
+          "text": "What they did",
+          "value": "what-they-did",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "what-we-take": {
+          "type": "header",
+          "text": "What we take",
+          "value": "what-we-take",
+          "line": 37,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+      "data": {}
+    },
+    "605332d0-02ad-4b4c-a636-10a9e9bfd8f0": {
+      "id": "605332d0-02ad-4b4c-a636-10a9e9bfd8f0",
+      "title": "Forensic evidence photography — reference scales",
+      "desc": "Crime-scene photography's L-shaped reference scale, and a NIST-adjacent study finding the standard isn't reliably manufactured.",
+      "updated": 1788419688518,
+      "created": 1788419688518,
+      "tags": [
+        "meta",
+        "photography",
+        "scientific-plate",
+        "scale",
+        "constraints"
+      ],
+      "vendor_approved": false,
+      "vendor": "",
+      "approved_on": "",
+      "custom": {
+        "vendor_approved": false,
+        "vendor": "",
+        "approved_on": ""
+      },
+      "fname": "sources.photos.forensic-evidence-scales",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "f4adcda4184110c5ab47a6345f076917",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.forensic-evidence-scales",
+            "id": "605332d0-02ad-4b4c-a636-10a9e9bfd8f0",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.forensic-evidence-scales",
+            "id": "605332d0-02ad-4b4c-a636-10a9e9bfd8f0",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.forensic-evidence-scales",
+            "id": "605332d0-02ad-4b4c-a636-10a9e9bfd8f0",
+            "vaultName": "vault"
+          },
+          "value": "tags.scientific-plate",
+          "alias": "scientific-plate",
+          "xvault": false,
+          "to": {
+            "fname": "tags.scientific-plate"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.forensic-evidence-scales",
+            "id": "605332d0-02ad-4b4c-a636-10a9e9bfd8f0",
+            "vaultName": "vault"
+          },
+          "value": "tags.scale",
+          "alias": "scale",
+          "xvault": false,
+          "to": {
+            "fname": "tags.scale"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.forensic-evidence-scales",
+            "id": "605332d0-02ad-4b4c-a636-10a9e9bfd8f0",
+            "vaultName": "vault"
+          },
+          "value": "tags.constraints",
+          "alias": "constraints",
+          "xvault": false,
+          "to": {
+            "fname": "tags.constraints"
+          }
+        }
+      ],
+      "anchors": {
+        "the-problem": {
+          "type": "header",
+          "text": "The problem",
+          "value": "the-problem",
+          "line": 19,
+          "column": 0,
+          "depth": 2
+        },
+        "what-they-did": {
+          "type": "header",
+          "text": "What they did",
+          "value": "what-they-did",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "what-we-take": {
+          "type": "header",
+          "text": "What we take",
+          "value": "what-we-take",
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+      "data": {}
+    },
+    "de93244d-d998-494f-b5d1-189b28dbc899": {
+      "id": "de93244d-d998-494f-b5d1-189b28dbc899",
+      "title": "Conservation photography — raking light",
+      "desc": "The oblique-lighting technique conservators use to make surface topography and damage visible, useful specifically for enclosures and installed hardware rather than bare dies.",
+      "updated": 1788419688518,
+      "created": 1788419688518,
+      "tags": [
+        "meta",
+        "photography",
+        "scientific-plate",
+        "lighting"
+      ],
+      "vendor_approved": false,
+      "vendor": "",
+      "approved_on": "",
+      "custom": {
+        "vendor_approved": false,
+        "vendor": "",
+        "approved_on": ""
+      },
+      "fname": "sources.photos.conservation-raking-light",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "33a02e3d59a351202ed24e3be6e7edf7",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.conservation-raking-light",
+            "id": "de93244d-d998-494f-b5d1-189b28dbc899",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.conservation-raking-light",
+            "id": "de93244d-d998-494f-b5d1-189b28dbc899",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.conservation-raking-light",
+            "id": "de93244d-d998-494f-b5d1-189b28dbc899",
+            "vaultName": "vault"
+          },
+          "value": "tags.scientific-plate",
+          "alias": "scientific-plate",
+          "xvault": false,
+          "to": {
+            "fname": "tags.scientific-plate"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.conservation-raking-light",
+            "id": "de93244d-d998-494f-b5d1-189b28dbc899",
+            "vaultName": "vault"
+          },
+          "value": "tags.lighting",
+          "alias": "lighting",
+          "xvault": false,
+          "to": {
+            "fname": "tags.lighting"
+          }
+        }
+      ],
+      "anchors": {
+        "the-problem": {
+          "type": "header",
+          "text": "The problem",
+          "value": "the-problem",
+          "line": 19,
+          "column": 0,
+          "depth": 2
+        },
+        "what-they-did": {
+          "type": "header",
+          "text": "What they did",
+          "value": "what-they-did",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        },
+        "what-we-take": {
+          "type": "header",
+          "text": "What we take",
+          "value": "what-we-take",
+          "line": 43,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+      "data": {}
+    },
+    "ac09f4a5-496c-49be-9396-2d602537468c": {
+      "id": "ac09f4a5-496c-49be-9396-2d602537468c",
+      "title": "Burtynsky's \"Manufactured Landscapes\" — a counter-example",
+      "desc": "Large-format industrial-landscape photography that documents scale beautifully but argues against our restraint rule, filed here as what not to do rather than what to adopt.",
+      "updated": 1788443359285,
+      "created": 1788419688518,
+      "tags": [
+        "meta",
+        "photography",
+        "industrial",
+        "counter-example"
+      ],
+      "vendor_approved": false,
+      "vendor": "",
+      "approved_on": "",
+      "custom": {
+        "vendor_approved": false,
+        "vendor": "",
+        "approved_on": ""
+      },
+      "fname": "sources.photos.burtynsky-manufactured-landscapes",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c18b43926409cbc4bbcfc43c21aef0c4",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.burtynsky-manufactured-landscapes",
+            "id": "ac09f4a5-496c-49be-9396-2d602537468c",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.burtynsky-manufactured-landscapes",
+            "id": "ac09f4a5-496c-49be-9396-2d602537468c",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.burtynsky-manufactured-landscapes",
+            "id": "ac09f4a5-496c-49be-9396-2d602537468c",
+            "vaultName": "vault"
+          },
+          "value": "tags.industrial",
+          "alias": "industrial",
+          "xvault": false,
+          "to": {
+            "fname": "tags.industrial"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.photos.burtynsky-manufactured-landscapes",
+            "id": "ac09f4a5-496c-49be-9396-2d602537468c",
+            "vaultName": "vault"
+          },
+          "value": "tags.counter-example",
+          "alias": "counter-example",
+          "xvault": false,
+          "to": {
+            "fname": "tags.counter-example"
+          }
+        }
+      ],
+      "anchors": {
+        "the-problem": {
+          "type": "header",
+          "text": "The problem",
+          "value": "the-problem",
+          "line": 19,
+          "column": 0,
+          "depth": 2
+        },
+        "what-they-did": {
+          "type": "header",
+          "text": "What they did",
+          "value": "what-they-did",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "what-we-take": {
+          "type": "header",
+          "text": "What we take",
+          "value": "what-we-take",
+          "line": 38,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+      "data": {}
+    },
+    "e71a229c-c834-42d9-9cdf-dbc1cce0b10a": {
+      "id": "e71a229c-c834-42d9-9cdf-dbc1cce0b10a",
+      "title": "GitHub Pages limits",
+      "desc": "The published size, bandwidth and build ceilings that shape what this site can hold.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta",
+        "hosting",
+        "constraints"
+      ],
+      "custom": {},
+      "fname": "sources.github-pages-limits",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "999104c2c0aa2bc78bd23f4b16ecfe53",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.github-pages-limits",
+            "id": "e71a229c-c834-42d9-9cdf-dbc1cce0b10a",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.github-pages-limits",
+            "id": "e71a229c-c834-42d9-9cdf-dbc1cce0b10a",
+            "vaultName": "vault"
+          },
+          "value": "tags.hosting",
+          "alias": "hosting",
+          "xvault": false,
+          "to": {
+            "fname": "tags.hosting"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources.github-pages-limits",
+            "id": "e71a229c-c834-42d9-9cdf-dbc1cce0b10a",
+            "vaultName": "vault"
+          },
+          "value": "tags.constraints",
+          "alias": "constraints",
+          "xvault": false,
+          "to": {
+            "fname": "tags.constraints"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "sources.github-pages-limits",
+            "id": "e71a229c-c834-42d9-9cdf-dbc1cce0b10a",
+            "vaultName": "vault"
+          },
+          "value": "notes.media-budget",
+          "alias": "A budget for images and video",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 31,
+              "offset": 424
+            },
+            "end": {
+              "line": 12,
+              "column": 83,
+              "offset": 476
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "notes.media-budget"
+          }
+        },
+        {
+          "from": {
+            "fname": "notes.media-budget",
+            "id": "d2d6721c-74a0-4ce6-aa40-40502d0a2626",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 29,
+              "offset": 924
+            },
+            "end": {
+              "line": 29,
+              "column": 80,
+              "offset": 975
+            },
+            "indent": []
+          },
+          "value": "sources.github-pages-limits"
+        },
+        {
+          "from": {
+            "fname": "topics.how-this-notebook-works",
+            "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 3,
+              "offset": 491
+            },
+            "end": {
+              "line": 12,
+              "column": 54,
+              "offset": 542
+            },
+            "indent": []
+          },
+          "value": "sources.github-pages-limits"
+        }
+      ],
+      "anchors": {
+        "what-it-says": {
+          "type": "header",
+          "text": "What it says",
+          "value": "what-it-says",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "what-i-took-from-it": {
+          "type": "header",
+          "text": "What I took from it",
+          "value": "what-i-took-from-it",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "cc4b8580-43e7-43b7-83b9-22c062bd511d",
+      "data": {}
+    },
+    "28a6a50b-4c15-4c7d-b603-5a1d12809f1c": {
+      "id": "28a6a50b-4c15-4c7d-b603-5a1d12809f1c",
+      "title": "Notes",
+      "desc": "Ideas in my own words, revised over time rather than published once.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta"
+      ],
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "notes",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "1684a548ea270e4f1afc2c89cb1e47c9",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes",
+            "id": "28a6a50b-4c15-4c7d-b603-5a1d12809f1c",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "from": {
+            "fname": "root",
+            "id": "03cdc22b-eff8-4e94-bd04-96724d382caa",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 106
+            },
+            "end": {
+              "line": 5,
+              "column": 18,
+              "offset": 121
+            },
+            "indent": []
+          },
+          "value": "notes"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "d2d6721c-74a0-4ce6-aa40-40502d0a2626",
+        "7a8ae6a4-b61f-4521-9562-2f0ceadede8d",
+        "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+        "b9466ca4-404f-4189-8355-3c768e665c25"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "b9466ca4-404f-4189-8355-3c768e665c25": {
+      "id": "b9466ca4-404f-4189-8355-3c768e665c25",
+      "title": "Three kinds of page, and one rule for choosing",
+      "desc": "Notes hold ideas, sources hold other people's work, topics hold the argument together.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta",
+        "writing-system"
+      ],
+      "custom": {},
+      "fname": "notes.three-kinds-of-page",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "980f11ed293e7214ad200767ffbec832",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.three-kinds-of-page",
+            "id": "b9466ca4-404f-4189-8355-3c768e665c25",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.three-kinds-of-page",
+            "id": "b9466ca4-404f-4189-8355-3c768e665c25",
+            "vaultName": "vault"
+          },
+          "value": "tags.writing-system",
+          "alias": "writing-system",
+          "xvault": false,
+          "to": {
+            "fname": "tags.writing-system"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.three-kinds-of-page",
+            "id": "b9466ca4-404f-4189-8355-3c768e665c25",
+            "vaultName": "vault"
+          },
+          "value": "notes.naming-and-linking",
+          "alias": "Naming and linking",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 11,
+              "offset": 729
+            },
+            "end": {
+              "line": 19,
+              "column": 58,
+              "offset": 776
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "notes.naming-and-linking"
+          }
+        },
+        {
+          "from": {
+            "fname": "topics.how-this-notebook-works",
+            "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 3,
+              "offset": 307
+            },
+            "end": {
+              "line": 9,
+              "column": 79,
+              "offset": 383
+            },
+            "indent": []
+          },
+          "value": "notes.three-kinds-of-page"
+        },
+        {
+          "from": {
+            "fname": "notes.photos.notation",
+            "id": "246da0e6-0ebd-47e9-9d31-7a54a79b8a47",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 66,
+              "column": 11,
+              "offset": 2075
+            },
+            "end": {
+              "line": 66,
+              "column": 60,
+              "offset": 2124
+            },
+            "indent": []
+          },
+          "value": "notes.three-kinds-of-page"
+        }
+      ],
+      "anchors": {
+        "one-idea-per-note": {
+          "type": "header",
+          "text": "One idea per note",
+          "value": "one-idea-per-note",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "28a6a50b-4c15-4c7d-b603-5a1d12809f1c",
+      "data": {}
+    },
+    "4ae2c7ca-0db8-4486-b1d3-7027f71420d3": {
+      "id": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+      "title": "Photographing the exhibition",
+      "desc": "What our exhibition photography has to prove, and the reference work we're mining to do it.",
+      "updated": 1788393600000,
+      "created": 1788393600000,
+      "tags": [
+        "meta",
+        "photography",
+        "exhibition",
+        "writing-system"
+      ],
+      "custom": {},
+      "fname": "notes.photos",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6b495b52038e133b8014d498ceed24a2",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.photos",
+            "id": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.photos",
+            "id": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.photos",
+            "id": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+            "vaultName": "vault"
+          },
+          "value": "tags.exhibition",
+          "alias": "exhibition",
+          "xvault": false,
+          "to": {
+            "fname": "tags.exhibition"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.photos",
+            "id": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+            "vaultName": "vault"
+          },
+          "value": "tags.writing-system",
+          "alias": "writing-system",
+          "xvault": false,
+          "to": {
+            "fname": "tags.writing-system"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.photos",
+            "id": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+            "vaultName": "vault"
+          },
+          "value": "sources.photos.ifixit-teardowns",
+          "alias": "iFixit teardown photography",
+          "position": {
+            "start": {
+              "line": 59,
+              "column": 3,
+              "offset": 2950
+            },
+            "end": {
+              "line": 59,
+              "column": 66,
+              "offset": 3013
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "sources.photos.ifixit-teardowns"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.photos",
+            "id": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+            "vaultName": "vault"
+          },
+          "value": "templates.photo-source",
+          "alias": "the photo source template",
+          "position": {
+            "start": {
+              "line": 63,
+              "column": 6,
+              "offset": 3035
+            },
+            "end": {
+              "line": 63,
+              "column": 58,
+              "offset": 3087
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "templates.photo-source"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.photos",
+            "id": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+            "vaultName": "vault"
+          },
+          "value": "notes.photos.notation",
+          "alias": "the notation",
+          "position": {
+            "start": {
+              "line": 66,
+              "column": 29,
+              "offset": 3284
+            },
+            "end": {
+              "line": 66,
+              "column": 67,
+              "offset": 3322
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "notes.photos.notation"
+          }
+        },
+        {
+          "from": {
+            "fname": "sources.photos",
+            "id": "9fb155f7-93b1-42c9-9ca5-965ead6264cc",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 20,
+              "offset": 20
+            },
+            "end": {
+              "line": 2,
+              "column": 65,
+              "offset": 65
+            },
+            "indent": []
+          },
+          "value": "notes.photos"
+        },
+        {
+          "from": {
+            "fname": "templates.photo-source",
+            "id": "156bd44d-71e4-408e-a889-bc76b638d0db",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 18,
+              "offset": 1093
+            },
+            "end": {
+              "line": 31,
+              "column": 63,
+              "offset": 1138
+            },
+            "indent": []
+          },
+          "value": "notes.photos"
+        }
+      ],
+      "anchors": {
+        "what-were-collecting": {
+          "type": "header",
+          "text": "What we're collecting",
+          "value": "what-were-collecting",
+          "line": 51,
+          "column": 0,
+          "depth": 2
+        },
+        "entries": {
+          "type": "header",
+          "text": "Entries",
+          "value": "entries",
+          "line": 70,
+          "column": 0,
+          "depth": 2
+        },
+        "adding-one": {
+          "type": "header",
+          "text": "Adding one",
+          "value": "adding-one",
+          "line": 74,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "246da0e6-0ebd-47e9-9d31-7a54a79b8a47"
+      ],
+      "parent": "28a6a50b-4c15-4c7d-b603-5a1d12809f1c",
+      "data": {}
+    },
+    "246da0e6-0ebd-47e9-9d31-7a54a79b8a47": {
+      "id": "246da0e6-0ebd-47e9-9d31-7a54a79b8a47",
+      "title": "Marginalia and approval flags",
+      "desc": "Two conventions: sticky notes for our own reactions, a frontmatter flag for vendor sign-off.",
+      "updated": 1788393600000,
+      "created": 1788393600000,
+      "tags": [
+        "meta",
+        "photography",
+        "writing-system"
+      ],
+      "custom": {},
+      "fname": "notes.photos.notation",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "43e2de43f2739b6ebb14baedc05f8a60",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.photos.notation",
+            "id": "246da0e6-0ebd-47e9-9d31-7a54a79b8a47",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.photos.notation",
+            "id": "246da0e6-0ebd-47e9-9d31-7a54a79b8a47",
+            "vaultName": "vault"
+          },
+          "value": "tags.photography",
+          "alias": "photography",
+          "xvault": false,
+          "to": {
+            "fname": "tags.photography"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.photos.notation",
+            "id": "246da0e6-0ebd-47e9-9d31-7a54a79b8a47",
+            "vaultName": "vault"
+          },
+          "value": "tags.writing-system",
+          "alias": "writing-system",
+          "xvault": false,
+          "to": {
+            "fname": "tags.writing-system"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.photos.notation",
+            "id": "246da0e6-0ebd-47e9-9d31-7a54a79b8a47",
+            "vaultName": "vault"
+          },
+          "value": "notes.three-kinds-of-page",
+          "alias": "Three kinds of page",
+          "position": {
+            "start": {
+              "line": 66,
+              "column": 11,
+              "offset": 2075
+            },
+            "end": {
+              "line": 66,
+              "column": 60,
+              "offset": 2124
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "notes.three-kinds-of-page"
+          }
+        },
+        {
+          "from": {
+            "fname": "notes.photos",
+            "id": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 66,
+              "column": 29,
+              "offset": 3284
+            },
+            "end": {
+              "line": 66,
+              "column": 67,
+              "offset": 3322
+            },
+            "indent": []
+          },
+          "value": "notes.photos.notation"
+        }
+      ],
+      "anchors": {
+        "sticky-notes": {
+          "type": "header",
+          "text": "Sticky notes",
+          "value": "sticky-notes",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "the-approval-flag": {
+          "type": "header",
+          "text": "The approval flag",
+          "value": "the-approval-flag",
+          "line": 58,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+      "data": {}
+    },
+    "7a8ae6a4-b61f-4521-9562-2f0ceadede8d": {
+      "id": "7a8ae6a4-b61f-4521-9562-2f0ceadede8d",
+      "title": "Naming and linking",
+      "desc": "Note names become URLs, so name for permanence and link with wikilinks.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta",
+        "urls"
+      ],
+      "custom": {},
+      "fname": "notes.naming-and-linking",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "9801f53f03ce1fa514ddc7a841c91b4d",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.naming-and-linking",
+            "id": "7a8ae6a4-b61f-4521-9562-2f0ceadede8d",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.naming-and-linking",
+            "id": "7a8ae6a4-b61f-4521-9562-2f0ceadede8d",
+            "vaultName": "vault"
+          },
+          "value": "tags.urls",
+          "alias": "urls",
+          "xvault": false,
+          "to": {
+            "fname": "tags.urls"
+          }
+        },
+        {
+          "from": {
+            "fname": "notes.three-kinds-of-page",
+            "id": "b9466ca4-404f-4189-8355-3c768e665c25",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 11,
+              "offset": 729
+            },
+            "end": {
+              "line": 19,
+              "column": 58,
+              "offset": 776
+            },
+            "indent": []
+          },
+          "value": "notes.naming-and-linking"
+        },
+        {
+          "from": {
+            "fname": "topics.how-this-notebook-works",
+            "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 3,
+              "offset": 386
+            },
+            "end": {
+              "line": 10,
+              "column": 50,
+              "offset": 433
+            },
+            "indent": []
+          },
+          "value": "notes.naming-and-linking"
+        }
+      ],
+      "anchors": {
+        "no-date-prefixes-on-notes": {
+          "type": "header",
+          "text": "No date prefixes on notes",
+          "value": "no-date-prefixes-on-notes",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "link-with-wikilinks": {
+          "type": "header",
+          "text": "Link with wikilinks",
+          "value": "link-with-wikilinks",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "28a6a50b-4c15-4c7d-b603-5a1d12809f1c",
+      "data": {}
+    },
+    "d2d6721c-74a0-4ce6-aa40-40502d0a2626": {
+      "id": "d2d6721c-74a0-4ce6-aa40-40502d0a2626",
+      "title": "A budget for images and video",
+      "desc": "GitHub Pages caps a published site at 1 GB, so video gets embedded, not committed.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta",
+        "media",
+        "performance"
+      ],
+      "custom": {},
+      "fname": "notes.media-budget",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e7a26b6f0d702180e8ae538ab8c004b9",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.media-budget",
+            "id": "d2d6721c-74a0-4ce6-aa40-40502d0a2626",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.media-budget",
+            "id": "d2d6721c-74a0-4ce6-aa40-40502d0a2626",
+            "vaultName": "vault"
+          },
+          "value": "tags.media",
+          "alias": "media",
+          "xvault": false,
+          "to": {
+            "fname": "tags.media"
+          }
+        },
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes.media-budget",
+            "id": "d2d6721c-74a0-4ce6-aa40-40502d0a2626",
+            "vaultName": "vault"
+          },
+          "value": "tags.performance",
+          "alias": "performance",
+          "xvault": false,
+          "to": {
+            "fname": "tags.performance"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.media-budget",
+            "id": "d2d6721c-74a0-4ce6-aa40-40502d0a2626",
+            "vaultName": "vault"
+          },
+          "value": "sources.github-pages-limits",
+          "alias": "GitHub Pages limits",
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 29,
+              "offset": 924
+            },
+            "end": {
+              "line": 29,
+              "column": 80,
+              "offset": 975
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "sources.github-pages-limits"
+          }
+        },
+        {
+          "from": {
+            "fname": "sources.github-pages-limits",
+            "id": "e71a229c-c834-42d9-9cdf-dbc1cce0b10a",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 31,
+              "offset": 424
+            },
+            "end": {
+              "line": 12,
+              "column": 83,
+              "offset": 476
+            },
+            "indent": []
+          },
+          "value": "notes.media-budget"
+        },
+        {
+          "from": {
+            "fname": "topics.how-this-notebook-works",
+            "id": "b43523ba-f71e-4459-bde8-67c52f7ca1dc",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 3,
+              "offset": 436
+            },
+            "end": {
+              "line": 11,
+              "column": 55,
+              "offset": 488
+            },
+            "indent": []
+          },
+          "value": "notes.media-budget"
+        }
+      ],
+      "anchors": {
+        "images": {
+          "type": "header",
+          "text": "Images",
+          "value": "images",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "video": {
+          "type": "header",
+          "text": "Video",
+          "value": "video",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "28a6a50b-4c15-4c7d-b603-5a1d12809f1c",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "28a6a50b-4c15-4c7d-b603-5a1d12809f1c",
+      "title": "Notes",
+      "desc": "Ideas in my own words, revised over time rather than published once.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta"
+      ],
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "notes",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "1684a548ea270e4f1afc2c89cb1e47c9",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "notes",
+            "id": "28a6a50b-4c15-4c7d-b603-5a1d12809f1c",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "from": {
+            "fname": "root",
+            "id": "03cdc22b-eff8-4e94-bd04-96724d382caa",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 106
+            },
+            "end": {
+              "line": 5,
+              "column": 18,
+              "offset": 121
+            },
+            "indent": []
+          },
+          "value": "notes"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "d2d6721c-74a0-4ce6-aa40-40502d0a2626",
+        "7a8ae6a4-b61f-4521-9562-2f0ceadede8d",
+        "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+        "b9466ca4-404f-4189-8355-3c768e665c25"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\nIdeas in my own words, revised over time rather than published once. Every\nnote filed under this hierarchy shows up as a child below, and Dendron's\nbacklinks panel shows what links into each one.\n"
+    },
+    {
+      "id": "cc4b8580-43e7-43b7-83b9-22c062bd511d",
+      "title": "Sources",
+      "desc": "Links, papers, talks and videos, each with the reason it's worth your time.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta"
+      ],
+      "custom": {
+        "nav_order": 1
+      },
+      "fname": "sources",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "325910bc486dbbdc4bb49d48c70f968c",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "sources",
+            "id": "cc4b8580-43e7-43b7-83b9-22c062bd511d",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "from": {
+            "fname": "root",
+            "id": "03cdc22b-eff8-4e94-bd04-96724d382caa",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 3,
+              "offset": 124
+            },
+            "end": {
+              "line": 6,
+              "column": 22,
+              "offset": 143
+            },
+            "indent": []
+          },
+          "value": "sources"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "e71a229c-c834-42d9-9cdf-dbc1cce0b10a",
+        "9fb155f7-93b1-42c9-9ca5-965ead6264cc"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\nThings I read or watched, recorded with what I took from them rather than\nreproduced in full.\n"
+    },
+    {
+      "id": "8d629673-d21d-4f83-9423-4e62c68da9ab",
+      "title": "Topics",
+      "desc": "Hand-curated maps that arrange notes and sources into an argument.",
+      "updated": 1788417991064,
+      "created": 1788417991064,
+      "tags": [
+        "meta"
+      ],
+      "custom": {
+        "nav_order": 2
+      },
+      "fname": "topics",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c890e4d6135d7d5fb747a11d11df61d4",
+      "links": [
+        {
+          "type": "frontmatterTag",
+          "from": {
+            "fname": "topics",
+            "id": "8d629673-d21d-4f83-9423-4e62c68da9ab",
+            "vaultName": "vault"
+          },
+          "value": "tags.meta",
+          "alias": "meta",
+          "xvault": false,
+          "to": {
+            "fname": "tags.meta"
+          }
+        },
+        {
+          "from": {
+            "fname": "root",
+            "id": "03cdc22b-eff8-4e94-bd04-96724d382caa",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 3,
+              "offset": 146
+            },
+            "end": {
+              "line": 7,
+              "column": 20,
+              "offset": 163
+            },
+            "indent": []
+          },
+          "value": "topics"
+        }
+      ],
+      "anchors": {},
+      "children": [
+        "b43523ba-f71e-4459-bde8-67c52f7ca1dc"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\nHand-curated maps. Each one gathers the notes and sources that belong\ntogether and says why.\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "28a6a50b-4c15-4c7d-b603-5a1d12809f1c",
+    "title": "Notes",
+    "desc": "Ideas in my own words, revised over time rather than published once.",
+    "updated": 1788417991064,
+    "created": 1788417991064,
+    "tags": [
+      "meta"
+    ],
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "notes",
+    "type": "note",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "contentHash": "1684a548ea270e4f1afc2c89cb1e47c9",
+    "links": [
+      {
+        "type": "frontmatterTag",
+        "from": {
+          "fname": "notes",
+          "id": "28a6a50b-4c15-4c7d-b603-5a1d12809f1c",
+          "vaultName": "vault"
+        },
+        "value": "tags.meta",
+        "alias": "meta",
+        "xvault": false,
+        "to": {
+          "fname": "tags.meta"
+        }
+      },
+      {
+        "from": {
+          "fname": "root",
+          "id": "03cdc22b-eff8-4e94-bd04-96724d382caa",
+          "vaultName": "vault"
+        },
+        "type": "backlink",
+        "position": {
+          "start": {
+            "line": 5,
+            "column": 3,
+            "offset": 106
+          },
+          "end": {
+            "line": 5,
+            "column": 18,
+            "offset": 121
+          },
+          "indent": []
+        },
+        "value": "notes"
+      }
+    ],
+    "anchors": {},
+    "children": [
+      "d2d6721c-74a0-4ce6-aa40-40502d0a2626",
+      "7a8ae6a4-b61f-4521-9562-2f0ceadede8d",
+      "4ae2c7ca-0db8-4486-b1d3-7027f71420d3",
+      "b9466ca4-404f-4189-8355-3c768e665c25"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\nIdeas in my own words, revised over time rather than published once. Every\nnote filed under this hierarchy shows up as a child below, and Dendron's\nbacklinks panel shows what links into each one.\n"
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    }
+  ]
+}

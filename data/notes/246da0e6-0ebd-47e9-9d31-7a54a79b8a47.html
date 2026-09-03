@@ -1,0 +1,62 @@
+<h1 id="marginalia-and-approval-flags">Marginalia and approval flags<a aria-hidden="true" class="anchor-heading icon-link" href="#marginalia-and-approval-flags"></a></h1>
+<p>A source page records what someone else did. Our reactions to it are a
+different kind of writing, and if they're mixed into the summary the page
+stops being a reliable record of the source — six months later nobody can
+tell which sentence came from the photographer and which came from us.</p>
+<p>So reactions go in the margin, visibly, attributed, and dated.</p>
+<h2 id="sticky-notes">Sticky notes<a aria-hidden="true" class="anchor-heading icon-link" href="#sticky-notes"></a></h2>
+<p>Raw HTML passes through Dendron's publish pipeline, so an <code>&#x3C;aside></code> works and
+can be styled and filtered later:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>aside</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sticky<span class="token punctuation">"</span></span> <span class="token attr-name">data-who</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>rk<span class="token punctuation">"</span></span> <span class="token attr-name">data-date</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2026-09-03<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+The overhead rig assumes a flat object. Wafer boxes aren't flat.
+<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>aside</span><span class="token punctuation">></span></span>
+</code></pre>
+<p>Drop one anywhere — mid-section is the point, it should sit next to the
+sentence it argues with. <code>data-who</code> is initials, <code>data-date</code> is ISO. Both
+matter: an unattributed sticky note is indistinguishable from the summary it
+was meant to be separate from.</p>
+<p>Styling lives in the site's custom CSS, not inline, so the whole class can be
+suppressed for a public build:</p>
+<pre class="language-css"><code class="language-css"><span class="token selector"><span class="token class">.sticky</span></span> <span class="token punctuation">{</span>
+  <span class="token property">border-left</span><span class="token punctuation">:</span> <span class="token number">3</span><span class="token unit">px</span> solid <span class="token hexcode color">#d9a441</span><span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode color">#fdf6e6</span><span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">0.6</span><span class="token unit">rem</span> <span class="token number">0.9</span><span class="token unit">rem</span><span class="token punctuation">;</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token unit">rem</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token number">0.92</span><span class="token unit">em</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector"><span class="token class">.sticky</span><span class="token pseudo-element">::before</span></span> <span class="token punctuation">{</span>
+  <span class="token property">content</span><span class="token punctuation">:</span> <span class="token function">attr</span><span class="token punctuation">(</span>data-who<span class="token punctuation">)</span> <span class="token string">" · "</span> <span class="token function">attr</span><span class="token punctuation">(</span>data-date<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+  <span class="token property">font-variant</span><span class="token punctuation">:</span> small-caps<span class="token punctuation">;</span>
+  <span class="token property">letter-spacing</span><span class="token punctuation">:</span> <span class="token number">0.04</span><span class="token unit">em</span><span class="token punctuation">;</span>
+  <span class="token property">opacity</span><span class="token punctuation">:</span> <span class="token number">0.65</span><span class="token punctuation">;</span>
+  <span class="token property">margin-bottom</span><span class="token punctuation">:</span> <span class="token number">0.3</span><span class="token unit">rem</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="the-approval-flag">The approval flag<a aria-hidden="true" class="anchor-heading icon-link" href="#the-approval-flag"></a></h2>
+<p><code>vendor_approved</code> is a boolean in frontmatter. It means one thing only: a
+named external vendor has agreed in writing that we may research or adopt this
+work more deeply. It does not mean we like it, and it is not a rating.</p>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">vendor_approved</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+<span class="token key atrule">vendor</span><span class="token punctuation">:</span> <span class="token string">"Studio name"</span>
+<span class="token key atrule">approved_on</span><span class="token punctuation">:</span> <span class="token datetime number">2026-09-14</span>
+</code></pre>
+<p>A bare boolean loses the provenance that makes it worth anything, hence the
+two companion fields. Default is <code>false</code>; absent counts as <code>false</code>.</p>
+<p>Dendron's lookup searches filenames, titles and tags — it won't filter on a
+custom frontmatter field. So when the flag flips to <code>true</code>, also add
+<code>vendor-approved</code> to <code>tags</code>. The frontmatter is the truth, the tag is the
+index, and they have to be changed together.</p>
+<p>See also: <a href="/IntoTheEtherDocumentationDendron/notes/b9466ca4-404f-4189-8355-3c768e665c25">Three kinds of page</a>.</p>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">meta (Private)</a></li>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">photography (Private)</a></li>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">writing-system (Private)</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/IntoTheEtherDocumentationDendron/notes/4ae2c7ca-0db8-4486-b1d3-7027f71420d3">Photographing the exhibition</a></li>
+</ul>

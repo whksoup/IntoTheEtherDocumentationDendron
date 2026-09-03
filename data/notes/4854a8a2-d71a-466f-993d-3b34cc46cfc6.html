@@ -1,0 +1,45 @@
+<h1 id="herbarium-specimen-imaging--scale-and-colour-calibration">Herbarium specimen imaging — scale and colour calibration<a aria-hidden="true" class="anchor-heading icon-link" href="#herbarium-specimen-imaging--scale-and-colour-calibration"></a></h1>
+<h2 id="the-problem">The problem<a aria-hidden="true" class="anchor-heading icon-link" href="#the-problem"></a></h2>
+<p>A specimen photograph is only useful to someone who wasn't in the room if
+its size and true colour can be recovered from the image itself. Two
+photographs of the same plant, shot on different days by different people
+with different cameras, need to be comparable — for identification, for
+measurement, for later computer-vision work — without anyone having to
+trust the photographer's word for scale or lighting.</p>
+<h2 id="what-they-did">What they did<a aria-hidden="true" class="anchor-heading icon-link" href="#what-they-did"></a></h2>
+<p>Herbaria have converged on a shared frame layout rather than a shared
+camera setup: every specimen image carries a colour-calibration scale (a
+patch series with known reference values) and a separate measurement scale
+bar, both physically placed on the copy stand rather than added digitally
+after the fact. A commonly cited design for the ruler itself is a black
+background with white centimetre markings, alternating black and white
+blocks per centimetre, with the first centimetre further subdivided into
+millimetres so sub-centimetre detail can be read directly off the image
+without a separate reference table. The point isn't the elegance of the
+ruler — it's that the same physical object appears, unchanged, in every
+frame, so it functions as a bridge between arbitrary photographs and real
+units.</p>
+<h2 id="what-we-take">What we take<a aria-hidden="true" class="anchor-heading icon-link" href="#what-we-take"></a></h2>
+<p>Directly usable for our "scale is always declared" rule: rather than
+inventing our own scale device, we should adopt one fixed, physically
+present reference object — the same one, every shot — the way herbaria use
+one ruler design across institutions. It also suggests going a step
+further than we'd planned: a colour-calibration patch alongside the
+measurement scale, so board and die colours (which vary a lot under
+different fab processes and lighting) stay comparable across the exhibition
+rather than just their size. Cheap to adopt, and it reads as method rather
+than decoration, which fits the datasheet-plain aesthetic we're going for.</p>
+<p>What doesn't transfer: herbarium sheets are flat, rigid, and shot on a
+fixed copy stand; most of our subjects (racks, installed hardware) aren't,
+so the scale convention transfers more cleanly than the flat-copy-stand
+setup does.</p>
+<p>Source: (<a href="https://www.edwardburtynsky.com/projects/films/manufactured-landscapes">https://www.edwardburtynsky.com/projects/films/manufactured-landscapes</a>)
+Further reading: <a href="https://arxiv.org/pdf/2505.17317">https://arxiv.org/pdf/2505.17317</a></p>
+<hr>
+<h2 id="tags">Tags<a aria-hidden="true" class="anchor-heading icon-link" href="#tags"></a></h2>
+<ol>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">meta (Private)</a></li>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">photography (Private)</a></li>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">scientific-plate (Private)</a></li>
+<li><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">scale (Private)</a></li>
+</ol>
