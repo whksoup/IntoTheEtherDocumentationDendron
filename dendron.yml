@@ -28,8 +28,8 @@ publishing:
   siteRootDir: docs
 
   # EDIT THESE before your first deploy — see the two cases below.
-  siteUrl: https://USER.github.io
-  assetsPrefix: /REPO
+  siteUrl: https://whksoup.github.io
+  assetsPrefix: /IntoTheEtherDocumentationDendron
 
   title: Working Notes
   description: A public notebook.
