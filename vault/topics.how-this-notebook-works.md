@@ -1,0 +1,23 @@
+---
+id: b43523ba-f71e-4459-bde8-67c52f7ca1dc
+title: How this notebook works
+desc: "The conventions behind the three note types, and why they're worth keeping."
+updated: 1788417991064
+created: 1788417991064
+tags: [meta, writing-system]
+---
+
+Most public notebooks die of one of two causes: the structure gets so
+elaborate that filing a thought costs more than thinking it, or there's no
+structure at all and the archive turns into a pile. This one aims at the
+narrow band between those.
+
+Three kinds of note, one rule for choosing between them:
+
+- [[Three kinds of page, and one rule for choosing|notes.three-kinds-of-page]]
+- [[Naming and linking|notes.naming-and-linking]]
+- [[A budget for images and video|notes.media-budget]]
+- [[GitHub Pages limits|sources.github-pages-limits]]
+
+Dendron builds the reverse of this list automatically — open any note above
+and its **Backlinks** panel will point back here.

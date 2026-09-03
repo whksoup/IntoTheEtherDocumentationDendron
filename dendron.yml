@@ -1,0 +1,39 @@
+# Dendron workspace configuration.
+# Regenerate/validate this against your installed extension version with the
+# command palette: "Dendron: Configure (yaml)" — schema drifts between
+# releases and the in-editor UI will flag anything that's gone stale.
+apiEndpoint: http://localhost:3005
+version: 1
+
+workspace:
+  vaults:
+    - fsPath: vault
+  workspaceVaultSyncMode: noCommit
+
+preview:
+  enableFMTitle: true
+  enableNoteTitleForLink: true
+
+publishing:
+  enableFMTitle: true
+  enableNoteTitleForLink: true
+  siteLastModified: true
+
+  # Which top-level hierarchies get published. Anything not listed here,
+  # or any note with `published: false` in its frontmatter, is left out.
+  siteHierarchies:
+    - notes
+    - sources
+    - topics
+  siteRootDir: docs
+
+  # EDIT THESE before your first deploy — see the two cases below.
+  siteUrl: https://USER.github.io
+  assetsPrefix: /REPO
+
+  title: Working Notes
+  description: A public notebook.
+  author: Your Name
+
+  # site.config lets you override publishByDefault etc per hierarchy;
+  # left at defaults here (everything under siteHierarchies publishes).

@@ -1,0 +1,22 @@
+---
+id: e71a229c-c834-42d9-9cdf-dbc1cce0b10a
+title: GitHub Pages limits
+desc: "The published size, bandwidth and build ceilings that shape what this site can hold."
+updated: 1788417991064
+created: 1788417991064
+tags: [meta, hosting, constraints]
+---
+
+## What it says
+
+The reference page for what GitHub will and won't serve. A published site is
+capped at 1 GB, bandwidth has a soft cap of 100 GB a month, and deployments
+time out after ten minutes. Ten builds an hour, unless you build through your
+own Actions workflow — which this site does.
+
+## What I took from it
+
+The 1 GB ceiling is the only constraint that really bites, and it bites on
+media rather than prose — see [[A budget for images and video|notes.media-budget]].
+
+Source: <https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits>

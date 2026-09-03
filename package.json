@@ -1,0 +1,14 @@
+{
+  "name": "notes-dendron",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Dendron workspace, published to GitHub Pages via the Dendron Next.js publishing pipeline.",
+  "scripts": {
+    "publish:init": "dendron publish init",
+    "publish:dev": "dendron publish dev",
+    "publish:export": "dendron publish export --target github --yes"
+  },
+  "devDependencies": {
+    "@dendronhq/dendron-cli": "latest"
+  }
+}

@@ -1,0 +1,80 @@
+---
+id: 4ae2c7ca-0db8-4486-b1d3-7027f71420d3
+title: Photographing the exhibition
+desc: "What our exhibition photography has to prove, and the reference work we're mining to do it."
+updated: 1788393600000
+created: 1788393600000
+tags: [meta, photography, exhibition, writing-system]
+---
+
+The exhibition is about open silicon and decentralized defensive technology.
+Both halves of that subject already have a house photographic style, and both
+are wrong for us.
+
+Defence imagery is monumental and anonymous: low angles, hard rim light, no
+hands, no names, nothing you could take apart. Open-hardware imagery is the
+opposite failure — a lit desk, a phone camera, a board at a slight angle,
+legible to the person who built it and to nobody else. The first says *trust
+us, don't look*. The second says *look, but we didn't make it easy*.
+
+Our claim is that a technology whose case rests on being inspectable has to
+be photographed as if inspection were the point. That is a documentation
+problem before it is an aesthetic one, and it gives us four rules.
+
+**Legibility beats mystique.** If a viewer can't tell what a thing does from
+the photograph, the photograph has failed, however handsome it is. Mystery is
+the visual grammar of closed systems and we don't get to borrow it.
+
+**Scale is always declared.** A die, a wafer, a board and a rack are four
+different arguments about power, and a cropped photograph flattens them into
+one. A hand, a rule, a stated magnification — something in every frame.
+
+**Capture conditions are repeatable.** Fixed height, fixed lighting, fixed
+background, recorded in the caption. Two objects shot the same way can be
+compared; two objects shot beautifully cannot. This is what makes the wall
+read as evidence rather than as a portfolio.
+
+**Attribution is visible.** Who made it, where, under what licence. The
+democratic claim of the subject is undercut the moment the images go
+anonymous, which is exactly the convention defence photography relies on.
+
+The unconventional part is not the styling — the styling is deliberately
+plain, near-corporate, close to a datasheet. It's that a datasheet aesthetic
+applied to *defensive* hardware is itself the argument. Restraint is the
+provocation.
+
+## What we're collecting
+
+Reference work, filed as sources under `sources.photos.*`, each one written to
+the same three-part shape: the problem the photographer or designer faced,
+what they built to solve it, and what we can take. Six seams worth mining:
+
+- **Teardown and repair documentation** — the most developed solution anywhere
+  to "photograph this so a stranger can repeat it".
+- **Die and wafer imaging** — macro and infrared work that makes silicon
+  legible at all, much of it openly licensed.
+- **Industrial and supply-chain landscape** — where the fabs, the labour and
+  the scale actually live.
+- **Scientific plate and specimen convention** — scale bars, calibration
+  targets, plate numbering; centuries of solved problems.
+- **Exhibition and installation documentation** — how a room gets photographed
+  without becoming an estate-agent listing.
+- **Open-hardware project photography** — mostly as a catalogue of what not to
+  do, with two or three exceptions worth stealing from.
+
+## Entries
+
+- [[iFixit teardown photography|sources.photos.ifixit-teardowns]]
+
+## Adding one
+
+Copy [[the photo source template|templates.photo-source]]. Keep the three
+headings. Set `vendor_approved: false` until a vendor has actually signed off
+in writing, and add your own reactions inline as sticky notes rather than
+rewriting the summary — see [[the notation|notes.photos.notation]].
+
+<aside class="sticky" data-who="you" data-date="2026-09-03">
+This page is a note, not a topic, because the four rules above are our claim
+and we'd defend them. If the entry list outgrows the argument, split it:
+argument stays here, curation moves to <code>topics.photographing-the-exhibition</code>.
+</aside>

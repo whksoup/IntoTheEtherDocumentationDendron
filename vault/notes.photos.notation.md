@@ -1,0 +1,74 @@
+---
+id: 246da0e6-0ebd-47e9-9d31-7a54a79b8a47
+title: Marginalia and approval flags
+desc: "Two conventions: sticky notes for our own reactions, a frontmatter flag for vendor sign-off."
+updated: 1788393600000
+created: 1788393600000
+tags: [meta, photography, writing-system]
+---
+
+A source page records what someone else did. Our reactions to it are a
+different kind of writing, and if they're mixed into the summary the page
+stops being a reliable record of the source — six months later nobody can
+tell which sentence came from the photographer and which came from us.
+
+So reactions go in the margin, visibly, attributed, and dated.
+
+## Sticky notes
+
+Raw HTML passes through Dendron's publish pipeline, so an `<aside>` works and
+can be styled and filtered later:
+
+```html
+<aside class="sticky" data-who="rk" data-date="2026-09-03">
+The overhead rig assumes a flat object. Wafer boxes aren't flat.
+</aside>
+```
+
+Drop one anywhere — mid-section is the point, it should sit next to the
+sentence it argues with. `data-who` is initials, `data-date` is ISO. Both
+matter: an unattributed sticky note is indistinguishable from the summary it
+was meant to be separate from.
+
+Styling lives in the site's custom CSS, not inline, so the whole class can be
+suppressed for a public build:
+
+```css
+.sticky {
+  border-left: 3px solid #d9a441;
+  background: #fdf6e6;
+  padding: 0.6rem 0.9rem;
+  margin: 1rem 0;
+  font-size: 0.92em;
+}
+.sticky::before {
+  content: attr(data-who) " · " attr(data-date);
+  display: block;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  opacity: 0.65;
+  margin-bottom: 0.3rem;
+}
+```
+
+## The approval flag
+
+`vendor_approved` is a boolean in frontmatter. It means one thing only: a
+named external vendor has agreed in writing that we may research or adopt this
+work more deeply. It does not mean we like it, and it is not a rating.
+
+```yaml
+vendor_approved: true
+vendor: "Studio name"
+approved_on: 2026-09-14
+```
+
+A bare boolean loses the provenance that makes it worth anything, hence the
+two companion fields. Default is `false`; absent counts as `false`.
+
+Dendron's lookup searches filenames, titles and tags — it won't filter on a
+custom frontmatter field. So when the flag flips to `true`, also add
+`vendor-approved` to `tags`. The frontmatter is the truth, the tag is the
+index, and they have to be changed together.
+
+See also: [[Three kinds of page|notes.three-kinds-of-page]].

@@ -1,0 +1,50 @@
+---
+id: 605332d0-02ad-4b4c-a636-10a9e9bfd8f0
+title: Forensic evidence photography — reference scales
+desc: "Crime-scene photography's L-shaped reference scale, and a NIST-adjacent study finding the standard isn't reliably manufactured."
+updated: 1788419688518
+created: 1788419688518
+tags: [meta, photography, scientific-plate, scale, constraints]
+vendor_approved: false
+vendor: ""
+approved_on: ""
+---
+
+## The problem
+
+Evidence photographs sometimes stand in a courtroom years after the object
+itself has moved, degraded, or been consumed by testing. A photograph that
+records only appearance and not true dimension can be challenged, or worse,
+can misrepresent an object's actual size in a way nobody catches until
+it's too late to matter.
+
+## What they did
+
+Forensic photography protocols call for a dimensional reference scale — the
+ABFO No. 2 is a widely recognised example, an L-shaped ruler placed directly
+in frame alongside the evidence — so every photograph carries its own proof
+of scale rather than relying on a caption or a separate measurement log.
+Standard practice is to shoot the same subject both with and without the
+scale in frame, so the unobstructed record and the measurable record both
+exist. A NIST-adjacent survey of commercially available versions of that
+scale, however, found real inconsistency in how accurately different
+manufacturers actually produced it — the standard exists, but conformance
+to it isn't guaranteed just because a scale is present in the photo.
+
+## What we take
+
+Two things, in tension. The "shoot it twice, with and without the scale"
+convention is worth adopting directly — it keeps the plain documentary
+image and the measurable image from competing inside the same frame. The
+NIST finding is the more important lesson: a scale object in frame is only
+as trustworthy as the object itself, so if we adopt a physical reference
+scale across the exhibition, we should verify our own copies against a
+known standard rather than assume any purchased ruler is accurate. That's
+a small, cheap check that protects the credibility the whole "declared
+scale" rule is supposed to buy us.
+
+What doesn't transfer: forensic photography is built around chain-of-custody
+and courtroom admissibility requirements we don't have — we can borrow the
+scale convention without adopting the full evidentiary protocol around it.
+
+Source: <https://www.ojp.gov/pdffiles1/nij/grants/243213.pdf>
