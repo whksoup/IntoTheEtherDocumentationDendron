@@ -9,6 +9,9 @@
     "publish:export": "dendron publish export --target github --yes"
   },
   "devDependencies": {
-    "@dendronhq/dendron-cli": "latest"
+  "@dendronhq/dendron-cli": "0.119.0",
+  "@dendronhq/common-all": "0.119.0",
+  "@dendronhq/common-server": "0.119.0",
+  "@dendronhq/engine-server": "0.119.0"
   }
 }
